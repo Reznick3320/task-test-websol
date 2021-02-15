@@ -1,0 +1,54 @@
+.header {
+    background-color: #E5E5E5;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1110px;
+        margin: 0 auto;
+        height: 94px;
+    }
+    &__social {
+        width: 70px;
+        display: flex;
+        justify-content: space-around;
+        &-item {
+            img {
+                fill: #9094A6;
+            }
+        }
+    }
+    &__socoil-lang {
+        display: flex;
+        justify-content: space-around;
+        & > p {
+            position: relative;
+            margin: 0 10px;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #9999A0;
+            cursor: pointer;
+            transition: all .3s;
+            &::after {
+                content: '';
+                position: absolute;
+                display: none;
+                width: 3px;
+                height: 3px;  
+                top: -10px;
+                left: 50%;
+                transform: translateX(-100%); 
+                border-radius: 100%;
+                background: #181819;
+            }
+            &:hover {
+                color: #181819;
+                transition: all .3s;
+                &::after {
+                    display: block;
+                    transition: all .3s;
+                }
+            }
+        }
+    }
+}

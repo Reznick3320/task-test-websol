@@ -1,0 +1,39 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    &__item {
+        position: relative;
+        &::after {
+            content: '';
+            width: 3px;
+            height: 3px;
+            display: block;
+            position: absolute;
+            border-radius: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -63px;
+            background: #181819;
+        }
+        &:nth-last-child() {
+            &::after{
+                display: none;
+            }
+        }
+    }
+    &__link {
+        font-size: 11px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #181819;
+        &:hover {
+            color: #9094A6;
+        }
+    }
+}
+
+nav {
+    border-top: 1px solid #E8EAEF;
+}

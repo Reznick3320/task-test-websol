@@ -1,0 +1,38 @@
+* {
+    font-family: 'Century Gothic Regular';
+    max-width: 1366px;
+    box-sizing: border-box;
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.video {
+    padding: 300px 0;
+    background: url('../img/header-bg.png') center (center/cover) no-repeat;
+    &__title {
+        text-align: center;
+        font-size: 45px;
+        color: red;
+    }
+}
+
+
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/project';
+@import 'blocks/rectangle';
+@import 'blocks/footer';
