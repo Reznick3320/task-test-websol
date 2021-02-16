@@ -17,8 +17,8 @@
             right: -63px;
             background: #181819;
         }
-        &:nth-last-child() {
-            &::after{
+        &:last-child {
+            &::after {
                 display: none;
             }
         }

@@ -30,9 +30,14 @@ a {
     }
 }
 
+.hamburger {
+    display: none;
+}
+
 
 @import 'blocks/header';
 @import 'blocks/menu';
 @import 'blocks/project';
 @import 'blocks/rectangle';
 @import 'blocks/footer';
+@import 'media.scss';

@@ -1,7 +1,6 @@
 {
   "name": "pulse",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +21,15 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reznick3320/task-test-websol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Reznick3320/task-test-websol/issues"
+  },
+  "homepage": "https://github.com/Reznick3320/task-test-websol#readme",
+  "description": ""
 }
